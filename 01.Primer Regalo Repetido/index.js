@@ -1,10 +1,10 @@
 function findFirstRepeated(gifts) {
-    const obj = {};
+    const repeated = {};
     for(const gift of gifts){
-        if(obj[gift] !== undefined){
+        if(repeated[gift] !== undefined){
             return gift;
         }
-        obj[gift] = 1;
+        repeated[gift] = 1;
     }
     return -1;
 }
