@@ -1,0 +1,13 @@
+{
+  "name": "adventjs-2023",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": ".",
+  "scripts": {
+    "create": "node ./utils/createFolders.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
